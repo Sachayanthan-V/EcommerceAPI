@@ -1,6 +1,7 @@
 const mongoose = require('mongoose'); // importing a mongoose lib
 
-mongoose.connect('mongodb://127.0.0.1:27017/products'); // assigning by localhost server with db name as products
+// mongoose.connect('mongodb://127.0.0.1:27017/products'); // assigning by localhost server with db name as products
+mongoose.connect('mongodb+srv://sachayanthanv1999:Md0LExFohDAFGkoH@ecommerce.0qg7wuq.mongodb.net/?retryWrites=true&w=majority');
 
 const db = mongoose.connection; // connecting to the server
 
